@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cadastrar Produto</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <a href="cadastro-cliente.html">voltar</a>
+
+  <div id="main-container">
+
+    <h1>Adicionar Produto</h1>
+
+    <form id="register-form" action="">
+      <div class="half-box spacing">
+        <label for="codproduto">Cód. Produto</label>
+        <input type="number" name="codproduto" id="codproduto" placeholder="Código do Produto" required>
+      </div>
+
+      <div class="half-box">
+        <label for="nomeproduto">Nome do Produto</label>
+        <input type="text" name="nomeproduto" id="nomeproduto" placeholder="Nome do produto" required>
+      </div>
+
+      <div class="half-box spacing">
+        <label for="descricao">Descrição</label>
+        <input type="text" name="descricao" id="descricao" placeholder="Descrição" required>
+      </div>
+
+      <div class="half-box">
+        <label for="valor">Valor Unitário</label>
+        <input type="number" name="valor" id="valor" placeholder="Valor unitário" required>
+      </div>
+
+      <div class="full-box">
+        <input id="btn-submit" type="submit" value="Registrar">
+      </div>
+    </form>
+
+  </div>
+
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
