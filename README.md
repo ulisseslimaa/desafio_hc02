@@ -4,7 +4,7 @@ Desafio 2 do Bootcamp da Hiring Coders
 
 ### Link da página
 
-https://desafio2-gama.vercel.app/
+https://desafio-02hc.netlify.app/
 
 ## Description
 O desafio é a criação de um sistema e-commerce para inventário de produtos e dados de clientes::
